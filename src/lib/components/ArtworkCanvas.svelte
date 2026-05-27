@@ -3,6 +3,7 @@
 	import type { Artwork } from '../types/artwork.js';
 	import type { Difficulty } from '../types/difficulty.js';
 	import { fitImageToCanvas, drawGuideLines } from '../drawing/canvas-utils.js';
+	import { t } from '../stores/i18n.js';
 
 	let {
 		artwork,
@@ -35,7 +36,7 @@
 			ctx.fillStyle = '#999';
 			ctx.font = '14px sans-serif';
 			ctx.textAlign = 'center';
-			ctx.fillText('画像を読み込めませんでした', canvas.width / 2, canvas.height / 2);
+			ctx.fillText($t.apiError, canvas.width / 2, canvas.height / 2);
 		};
 		img.src = artwork.imageUrl;
 	}
@@ -55,7 +56,7 @@
 <div class="canvas-wrapper">
 	<canvas bind:this={canvas} width={600} height={600}></canvas>
 	{#if loadError}
-		<p class="error-msg">作品画像の取得に失敗しました</p>
+		<p class="error-msg">{$t.apiError}</p>
 	{/if}
 </div>
 
@@ -63,14 +64,15 @@
 	.canvas-wrapper {
 		position: relative;
 		width: 100%;
-		aspect-ratio: 1;
+		height: 100%;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		overflow: hidden;
 	}
 
 	canvas {
 		width: 100%;
 		height: 100%;
-		border: 1px solid #ccc;
-		border-radius: 4px;
 		background: #fff;
 		display: block;
 	}
@@ -85,5 +87,6 @@
 		background: rgba(255,255,255,0.9);
 		padding: 0.25rem 0.5rem;
 		border-radius: 4px;
+		white-space: nowrap;
 	}
 </style>

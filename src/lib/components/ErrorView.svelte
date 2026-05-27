@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t } from '../stores/i18n.js';
 	let { message, onRetry }: { message: string; onRetry?: () => void } = $props();
 </script>
 
@@ -6,7 +7,7 @@
 	<p class="icon">⚠️</p>
 	<p class="message">{message}</p>
 	{#if onRetry}
-		<button onclick={onRetry}>もう一度試す</button>
+		<button onclick={onRetry}>{$t.retryBtn}</button>
 	{/if}
 </div>
 

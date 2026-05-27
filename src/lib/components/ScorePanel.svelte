@@ -1,28 +1,29 @@
 <script lang="ts">
 	import type { ScoreBreakdown } from '../types/score.js';
 	import { SCORE_MAX } from '../types/score.js';
+	import { t } from '../stores/i18n.js';
 
 	let { score }: { score: ScoreBreakdown } = $props();
 
-	const items = [
-		{ label: '形の一致度', key: 'shape' as const, max: SCORE_MAX.shape },
-		{ label: '位置の一致度', key: 'position' as const, max: SCORE_MAX.position },
-		{ label: '比率の一致度', key: 'proportion' as const, max: SCORE_MAX.proportion },
-		{ label: '余計な線の少なさ', key: 'extraLines' as const, max: SCORE_MAX.extraLines },
-		{ label: '主要ラインの再現度', key: 'mainLines' as const, max: SCORE_MAX.mainLines }
+	const keys = [
+		{ key: 'shape' as const, max: SCORE_MAX.shape },
+		{ key: 'position' as const, max: SCORE_MAX.position },
+		{ key: 'proportion' as const, max: SCORE_MAX.proportion },
+		{ key: 'extraLines' as const, max: SCORE_MAX.extraLines },
+		{ key: 'mainLines' as const, max: SCORE_MAX.mainLines }
 	];
 </script>
 
 <div class="score-panel">
 	<div class="total">
-		<span class="total-label">総合点</span>
-		<span class="total-value">{score.total}<small>点</small></span>
+		<span class="total-label">{$t.totalScore}</span>
+		<span class="total-value">{score.total}<small>{$t.scorePoint}</small></span>
 	</div>
 
 	<div class="breakdown">
-		{#each items as item}
+		{#each keys as item}
 			<div class="item">
-				<span class="item-label">{item.label}</span>
+				<span class="item-label">{$t[item.key]}</span>
 				<div class="bar-wrap">
 					<div class="bar" style:width="{(score[item.key] / item.max) * 100}%"></div>
 				</div>
@@ -32,8 +33,9 @@
 	</div>
 
 	<p class="notice">
-		このスコアは、お手本との線の一致度を元にした練習用の目安です。<br />
-		絵の上手さや芸術性を評価するものではありません。
+		{#each $t.scoreNotice.split('\n') as line, i}
+			{#if i > 0}<br />{/if}{line}
+		{/each}
 	</p>
 </div>
 
@@ -55,10 +57,7 @@
 		margin-bottom: 1.5rem;
 	}
 
-	.total-label {
-		font-size: 1rem;
-		color: #666;
-	}
+	.total-label { font-size: 1rem; color: #666; }
 
 	.total-value {
 		font-size: 3rem;
@@ -66,9 +65,7 @@
 		color: #4a7fa5;
 	}
 
-	.total-value small {
-		font-size: 1.2rem;
-	}
+	.total-value small { font-size: 1.2rem; }
 
 	.breakdown {
 		display: flex;
@@ -83,10 +80,7 @@
 		gap: 0.5rem;
 	}
 
-	.item-label {
-		font-size: 0.85rem;
-		color: #444;
-	}
+	.item-label { font-size: 0.85rem; color: #444; }
 
 	.bar-wrap {
 		background: #eee;

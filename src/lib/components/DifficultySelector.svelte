@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { Difficulty } from '../types/difficulty.js';
-	import { DIFFICULTY_LABELS, DIFFICULTY_DESCRIPTIONS } from '../types/difficulty.js';
+	import { t } from '../stores/i18n.js';
 
 	let {
 		selected = $bindable<Difficulty | null>(null)
@@ -18,8 +18,8 @@
 			class:active={selected === diff}
 			onclick={() => (selected = diff)}
 		>
-			<span class="label">{DIFFICULTY_LABELS[diff]}</span>
-			<span class="desc">{DIFFICULTY_DESCRIPTIONS[diff]}</span>
+			<span class="label">{$t.diffLabels[diff]}</span>
+			<span class="desc">{$t.diffDescs[diff]}</span>
 		</button>
 	{/each}
 </div>

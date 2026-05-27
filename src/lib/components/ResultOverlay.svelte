@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import type { Difficulty } from '../types/difficulty.js';
 	import { renderOverlay } from '../image-processing/overlay-renderer.js';
+	import { t } from '../stores/i18n.js';
 
 	let {
 		referenceCanvas,
@@ -20,17 +21,15 @@
 
 	onMount(() => {
 		overlayCanvasRef = canvas;
-		// まず結果を描画してからアニメーション
 		renderOverlay(canvas, referenceCanvas, userCanvas, difficulty);
-		// 短い遅延後にマージアニメーション
 		setTimeout(() => (phase = 'merged'), 600);
 	});
 </script>
 
 <div class="overlay-wrapper">
 	<div class="animation-container" class:merged={phase === 'merged'}>
-		<div class="panel left-panel">
-			<p class="panel-label">お手本</p>
+		<div class="panel">
+			<p class="panel-label">{$t.overlayReference}</p>
 			<canvas
 				width={referenceCanvas.width}
 				height={referenceCanvas.height}
@@ -38,8 +37,8 @@
 				style="--img: url({referenceCanvas.toDataURL()})"
 			></canvas>
 		</div>
-		<div class="panel right-panel">
-			<p class="panel-label">あなたの模写</p>
+		<div class="panel">
+			<p class="panel-label">{$t.overlayUser}</p>
 			<canvas
 				width={userCanvas.width}
 				height={userCanvas.height}
@@ -50,22 +49,19 @@
 	</div>
 
 	<div class="result-canvas-wrap" class:visible={phase === 'merged'}>
-		<p class="panel-label center">重ね合わせ結果</p>
+		<p class="panel-label center">{$t.overlayResult}</p>
 		<canvas bind:this={canvas} width={600} height={600} class="result-canvas"></canvas>
 		<div class="legend">
-			<span class="leg black">■ 一致</span>
-			<span class="leg blue">■ ユーザー線</span>
-			<span class="leg red">■ ズレ線</span>
-			<span class="leg yellow">■ 描き漏れ</span>
+			<span class="leg black">■ {$t.legendMatch}</span>
+			<span class="leg blue">■ {$t.legendUser}</span>
+			<span class="leg red">■ {$t.legendExtra}</span>
+			<span class="leg yellow">■ {$t.legendMissing}</span>
 		</div>
 	</div>
 </div>
 
 <style>
-	.overlay-wrapper {
-		position: relative;
-		overflow: hidden;
-	}
+	.overlay-wrapper { position: relative; overflow: hidden; }
 
 	.animation-container {
 		display: flex;
@@ -102,9 +98,7 @@
 		color: #666;
 	}
 
-	.panel-label.center {
-		text-align: center;
-	}
+	.panel-label.center { text-align: center; }
 
 	.result-canvas-wrap {
 		display: flex;

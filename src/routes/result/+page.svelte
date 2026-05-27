@@ -9,6 +9,7 @@
 	import ResultOverlay from '$lib/components/ResultOverlay.svelte';
 	import LoadingView from '$lib/components/LoadingView.svelte';
 	import ErrorView from '$lib/components/ErrorView.svelte';
+	import { t, toggleLang } from '$lib/stores/i18n.js';
 	import type { ScoreBreakdown } from '$lib/types/score.js';
 
 	let state = $derived($practiceStore);
@@ -25,7 +26,6 @@
 		}
 
 		try {
-			// お手本キャンバスを再構築
 			const ref = document.createElement('canvas');
 			ref.width = 600;
 			ref.height = 600;
@@ -39,7 +39,6 @@
 				img.src = state.artwork!.imageUrl;
 			});
 
-			// fitImageToCanvas相当
 			const scale = Math.min(ref.width / img.naturalWidth, ref.height / img.naturalHeight);
 			const x = (ref.width - img.naturalWidth * scale) / 2;
 			const y = (ref.height - img.naturalHeight * scale) / 2;
@@ -48,7 +47,6 @@
 			refCtx.drawImage(img, x, y, img.naturalWidth * scale, img.naturalHeight * scale);
 			refCanvas = ref;
 
-			// ユーザー描画を再構築
 			const user = document.createElement('canvas');
 			user.width = 600;
 			user.height = 600;
@@ -58,22 +56,22 @@
 			renderAllStrokes(userCtx, state.strokes);
 			userCanvas = user;
 
-			// 採点
 			const result = calculateScore(ref, user, state.difficulty!);
 			score = result;
 			practiceStore.setScore(result);
 			ready = true;
 		} catch (e) {
 			console.error('採点処理失敗:', e);
-			error = '採点処理に失敗しました。もう一度お試しください。';
+			error = $t.scoringError;
 		}
 	});
 </script>
 
 <div class="result-page">
 	<header class="header">
-		<a href="{base}/" class="back-link">← トップ</a>
-		<h1 class="title">採点結果</h1>
+		<a href="{base}/" class="back-link">{$t.backTop}</a>
+		<h1 class="title">{$t.results}</h1>
+		<button class="lang-btn" onclick={toggleLang}>{$t.langSwitch}</button>
 	</header>
 
 	{#if error}
@@ -82,7 +80,7 @@
 		</div>
 	{:else if !ready || !score || !refCanvas || !userCanvas}
 		<div class="center-fill">
-			<LoadingView message="採点中..." />
+			<LoadingView message={$t.scoring} />
 		</div>
 	{:else}
 		<div class="result-content">
@@ -100,7 +98,7 @@
 
 			<div class="actions">
 				<button class="btn secondary" onclick={() => goto(`${base}/practice`)}>
-					もう一度描く
+					{$t.drawAgain}
 				</button>
 				<button
 					class="btn secondary"
@@ -109,10 +107,10 @@
 						goto(`${base}/practice`);
 					}}
 				>
-					別の作品で描く
+					{$t.differentArtwork}
 				</button>
 				<button class="btn primary" onclick={() => goto(`${base}/`)}>
-					トップに戻る
+					{$t.backToTop}
 				</button>
 			</div>
 		</div>
@@ -133,9 +131,10 @@
 		align-items: center;
 		gap: 1rem;
 		background: white;
-		padding: 0.75rem 1rem;
+		padding: 0.6rem 1rem;
 		border-radius: 8px;
 		border: 1px solid #ddd;
+		flex-shrink: 0;
 	}
 
 	.back-link {
@@ -148,7 +147,20 @@
 		margin: 0;
 		font-size: 1.1rem;
 		color: #2c3e50;
+		flex: 1;
 	}
+
+	.lang-btn {
+		padding: 0.25rem 0.75rem;
+		border: 1px solid #bbb;
+		border-radius: 20px;
+		background: white;
+		cursor: pointer;
+		font-size: 0.8rem;
+		color: #555;
+	}
+
+	.lang-btn:hover { background: #f0f0f0; }
 
 	.center-fill {
 		flex: 1;
@@ -186,18 +198,8 @@
 		transition: background 0.15s;
 	}
 
-	.btn.primary {
-		background: #4a7fa5;
-		color: white;
-	}
-
+	.btn.primary { background: #4a7fa5; color: white; }
 	.btn.primary:hover { background: #3a6a8c; }
-
-	.btn.secondary {
-		background: white;
-		color: #4a7fa5;
-		border: 1px solid #4a7fa5;
-	}
-
+	.btn.secondary { background: white; color: #4a7fa5; border: 1px solid #4a7fa5; }
 	.btn.secondary:hover { background: #eef4fa; }
 </style>

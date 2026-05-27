@@ -11,7 +11,7 @@
 		strokes = $bindable<Stroke[]>([]),
 		canvasRef = $bindable<HTMLCanvasElement | null>(null),
 		tool = 'pen',
-		penSize = 3
+		penSize = 1
 	}: {
 		difficulty: Difficulty;
 		strokes?: Stroke[];
@@ -20,11 +20,9 @@
 		penSize?: number;
 	} = $props();
 
-	let canvas: HTMLCanvasElement;
-	let drawingCanvas: HTMLCanvasElement; // 描画レイヤー
-	let guideCanvas: HTMLCanvasElement;   // 補助線レイヤー
+	let drawingCanvas: HTMLCanvasElement;
+	let guideCanvas: HTMLCanvasElement;
 
-	// Undo/Redo履歴
 	let history: Stroke[][] = $state([[]]);
 	let historyIndex = $state(0);
 
@@ -41,6 +39,8 @@
 	function redrawDrawing() {
 		if (!drawingCanvas) return;
 		const ctx = drawingCanvas.getContext('2d')!;
+		// 透明クリアしてからストロークを再描画
+		ctx.clearRect(0, 0, drawingCanvas.width, drawingCanvas.height);
 		renderAllStrokes(ctx, strokes);
 	}
 
@@ -87,10 +87,8 @@
 	function onPointerMove(e: PointerEvent) {
 		if (!isPointerDown || !currentStroke || !drawingCanvas) return;
 		e.preventDefault();
-
 		const pt = getCanvasPoint(e, drawingCanvas);
 		addPoint(currentStroke, pt);
-
 		const ctx = drawingCanvas.getContext('2d')!;
 		renderStroke(ctx, currentStroke);
 	}
@@ -99,7 +97,6 @@
 		if (!isPointerDown || !currentStroke) return;
 		e.preventDefault();
 		isPointerDown = false;
-
 		strokes = [...strokes, currentStroke];
 		currentStroke = null;
 		commitHistory();
@@ -119,9 +116,11 @@
 </script>
 
 <div class="canvas-wrapper">
-	<!-- 補助線レイヤー -->
+	<!-- 白背景 -->
+	<div class="white-bg"></div>
+	<!-- 補助線レイヤー（背景の上） -->
 	<canvas bind:this={guideCanvas} width={600} height={600} class="layer guide-layer"></canvas>
-	<!-- 描画レイヤー -->
+	<!-- 描画レイヤー（最前面・透明背景） -->
 	<canvas
 		bind:this={drawingCanvas}
 		width={600}
@@ -139,7 +138,17 @@
 	.canvas-wrapper {
 		position: relative;
 		width: 100%;
-		aspect-ratio: 1;
+		height: 100%;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		overflow: hidden;
+	}
+
+	.white-bg {
+		position: absolute;
+		inset: 0;
+		background: #fff;
+		z-index: 0;
 	}
 
 	.layer {
@@ -148,8 +157,6 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		border: 1px solid #ccc;
-		border-radius: 4px;
 	}
 
 	.guide-layer {
@@ -158,7 +165,8 @@
 	}
 
 	.drawing-layer {
-		background: #fff;
+		/* 背景透明 — ガイド線がこの下に透けて見える */
+		background: transparent;
 		z-index: 2;
 	}
 </style>
