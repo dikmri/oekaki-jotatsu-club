@@ -33,7 +33,7 @@ export async function searchMetArtworks(query: string, limit = 20): Promise<Artw
 	searchUrl.searchParams.set('artistOrCulture', 'true');
 
 	const searchResult = await fetch(searchUrl.toString()).then((r) => r.json());
-	const objectIds: number[] = (searchResult.objectIDs ?? []).slice(0, 80);
+	const objectIds: number[] = (searchResult.objectIDs ?? []).slice(0, 40);
 
 	const details = await Promise.all(
 		objectIds.map((id) =>

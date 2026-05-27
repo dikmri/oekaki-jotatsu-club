@@ -3,13 +3,18 @@ import { searchMetArtworks } from './met.js';
 import { searchArticArtworks } from './artic.js';
 import { searchClevelandArtworks } from './cleveland.js';
 
-const DEFAULT_QUERIES = [
-	'Egon Schiele',
-	'Rembrandt drawing',
-	'Leonardo da Vinci sketch',
-	'Michelangelo study',
-	'Dürer drawing'
-];
+const TARGET_ARTISTS = [
+	{ query: 'Egon Schiele',        patterns: ['schiele'] },
+	{ query: 'Michelangelo',        patterns: ['michelangelo', 'buonarroti'] },
+	{ query: 'Raphael drawing',     patterns: ['raphael', 'raffaello', 'sanzio'] },
+	{ query: 'Albrecht Dürer',      patterns: ['dürer', 'durer', 'albrecht'] },
+	{ query: 'Leonardo da Vinci',   patterns: ['leonardo', 'da vinci', 'vinci'] },
+] as const;
+
+function isTargetArtist(artist: string): boolean {
+	const lower = artist.toLowerCase();
+	return TARGET_ARTISTS.some(({ patterns }) => patterns.some((p) => lower.includes(p)));
+}
 
 function shuffle<T>(arr: T[]): T[] {
 	const a = [...arr];
@@ -25,27 +30,33 @@ async function loadCachedArtworks(): Promise<Artwork[]> {
 		const base = import.meta.env.BASE_URL ?? '';
 		const res = await fetch(`${base}/data/artworks-cache.json`);
 		if (!res.ok) return [];
-		return await res.json();
+		const all: Artwork[] = await res.json();
+		return all.filter((a) => isTargetArtist(a.artist));
 	} catch {
 		return [];
 	}
 }
 
 export async function searchArtworks(params: ArtworkSearchParams): Promise<Artwork[]> {
-	const query = params.artist ?? DEFAULT_QUERIES[Math.floor(Math.random() * DEFAULT_QUERIES.length)];
 	const limit = params.limit ?? 20;
 
+	// 5名全員を並列検索して結果を統合する（per-queryは少量に絞り過負荷防止）
+	const PER_QUERY_LIMIT = 8;
 	const providers = params.provider
 		? [params.provider]
 		: ['met', 'artic', 'cleveland'] as const;
 
+	const allQueries = TARGET_ARTISTS.map(({ query }) => query);
+
 	const results = await Promise.allSettled(
-		providers.map((p) => {
-			if (p === 'met') return searchMetArtworks(query, limit);
-			if (p === 'artic') return searchArticArtworks(query, limit);
-			if (p === 'cleveland') return searchClevelandArtworks(query, limit);
-			return Promise.resolve([]);
-		})
+		allQueries.flatMap((query) =>
+			providers.map((p) => {
+				if (p === 'met') return searchMetArtworks(query, PER_QUERY_LIMIT);
+				if (p === 'artic') return searchArticArtworks(query, PER_QUERY_LIMIT);
+				if (p === 'cleveland') return searchClevelandArtworks(query, PER_QUERY_LIMIT);
+				return Promise.resolve([]);
+			})
+		)
 	);
 
 	let artworks: Artwork[] = results.flatMap((r) =>
@@ -57,7 +68,15 @@ export async function searchArtworks(params: ArtworkSearchParams): Promise<Artwo
 		artworks = await loadCachedArtworks();
 	}
 
-	artworks = artworks.filter((a) => !a.isHidden && a.imageUrl);
+	// 重複除去 + 対象作家フィルター
+	const seen = new Set<string>();
+	artworks = artworks.filter((a) => {
+		if (!a.imageUrl || a.isHidden) return false;
+		if (!isTargetArtist(a.artist)) return false;
+		if (seen.has(a.id)) return false;
+		seen.add(a.id);
+		return true;
+	});
 
 	return shuffle(artworks).slice(0, limit);
 }
