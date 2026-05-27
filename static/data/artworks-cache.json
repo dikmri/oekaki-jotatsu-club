@@ -1,1 +1,833 @@
-[]
+[
+  {
+    "id": "artic-29424",
+    "provider": "artic",
+    "providerObjectId": "29424",
+    "title": "The Artist's Mother",
+    "artist": "Egon Schiele",
+    "year": "1907",
+    "imageUrl": "https://www.artic.edu/iiif/2/77d0cf9f-f656-95cc-a3d9-0bf3b2639af9/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/29424",
+    "license": "CC0",
+    "medium": "Various black crayons on cream wove paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "met-337497",
+    "provider": "met",
+    "providerObjectId": "337497",
+    "title": "Studies for the Libyan Sibyl (recto); Studies for the Libyan Sibyl and a small Sketch for a Seated Figure (verso)",
+    "artist": "Michelangelo Buonarroti",
+    "year": "ca. 1510–11",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP826907.jpg",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/337497",
+    "license": "CC0",
+    "medium": "Red chalk, with small accents of white chalk on the left shoulder of the figure in the main study (recto); soft black chalk, or less probably charcoal (verso)",
+    "classification": "Drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-4163",
+    "provider": "artic",
+    "providerObjectId": "4163",
+    "title": "Archers Shooting at a Herm, Triumph of Bacchus, and Other Studies",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/f92d9ff9-324d-abcc-186d-0bb4bccc696c/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/4163",
+    "license": "CC0",
+    "medium": "Pen and brown ink, and brush and gray and brown wash, on tan laid paper, laid down on cream laid card",
+    "classification": "ink with wash",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-81705",
+    "provider": "artic",
+    "providerObjectId": "81705",
+    "title": "Legs and Feet of Male Nude",
+    "artist": "Michelangelo Buonarroti",
+    "year": "1812/50",
+    "imageUrl": "https://www.artic.edu/iiif/2/edeb0db8-32ce-0e24-abfd-735c2292b4a6/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/81705",
+    "license": "CC0",
+    "medium": "Pen and brown ink, on cream wove paper prepared with a pale brown wash",
+    "classification": "pen and ink drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-55033",
+    "provider": "artic",
+    "providerObjectId": "55033",
+    "title": "Moses",
+    "artist": "Michelangelo Buonarroti",
+    "year": "1700s",
+    "imageUrl": "https://www.artic.edu/iiif/2/b47f6d05-5116-d24a-bf81-f92a5ec7c329/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/55033",
+    "license": "CC0",
+    "medium": "Red chalk on ivory laid paper, laid down on gray wove paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-95634",
+    "provider": "artic",
+    "providerObjectId": "95634",
+    "title": "Left Hand of Moses",
+    "artist": "Michelangelo Buonarroti",
+    "year": "1725/30",
+    "imageUrl": "https://www.artic.edu/iiif/2/f838d528-6eb6-a158-9692-7fae1dfc2a2c/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/95634",
+    "license": "CC0",
+    "medium": "Red chalk counterproof, with traces of brown chalk, on cream laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-6940",
+    "provider": "artic",
+    "providerObjectId": "6940",
+    "title": "Drunkenness of Noah",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/0b31dfb0-34e8-4985-a91f-cf5abfa2fbbd/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/6940",
+    "license": "CC0",
+    "medium": "Pen and brown ink on tan laid paper, laid down on ivory laid paper",
+    "classification": "pen and ink drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-81703",
+    "provider": "artic",
+    "providerObjectId": "81703",
+    "title": "Ascending Male Nude",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/c36910f9-a869-ca22-d298-1266cf604730/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/81703",
+    "license": "CC0",
+    "medium": "Black chalk on tan laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-85921",
+    "provider": "artic",
+    "providerObjectId": "85921",
+    "title": "Seated Male Nude",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/e5d8f201-1842-debb-4ed1-deba4bc14d3c/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/85921",
+    "license": "CC0",
+    "medium": "Red chalk on ivory laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-85718",
+    "provider": "artic",
+    "providerObjectId": "85718",
+    "title": "Two Devils",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/dcc888ff-f71f-106b-c1ef-99457ebd8ab4/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/85718",
+    "license": "CC0",
+    "medium": "Red chalk on ivory laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-85831",
+    "provider": "artic",
+    "providerObjectId": "85831",
+    "title": "Ascending Male Nude",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/01d9019f-9d1d-c672-5bb7-1d19919b4d4b/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/85831",
+    "license": "CC0",
+    "medium": "Graphite on ivory laid paper",
+    "classification": "graphite",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-96146",
+    "provider": "artic",
+    "providerObjectId": "96146",
+    "title": "Deposition of Christ",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/995b1977-d36c-f3a4-a65b-0a58a27ed130/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/96146",
+    "license": "CC0",
+    "medium": "Brush and brown ink, heightened with red chalk, over graphite, on cream laid paper, laid down on cream laid paper",
+    "classification": "ink with chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-85688",
+    "provider": "artic",
+    "providerObjectId": "85688",
+    "title": "Seated Male Nude",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/55e32559-94fd-ec14-f44f-a35dd08ab971/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/85688",
+    "license": "CC0",
+    "medium": "Red chalk on buff laid paper, laid down on ivory laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-123545",
+    "provider": "artic",
+    "providerObjectId": "123545",
+    "title": "Bacchus (recto); Architectural Sketches (verso)",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/1126bbb5-89b3-dd76-0d12-b415d2cafefc/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/123545",
+    "license": "CC0",
+    "medium": "Black chalk and graphite, heightened with touches of white chalk (recto) and black and red chalk (verso) on ivory laid paper prepared with a green wash",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-95758",
+    "provider": "artic",
+    "providerObjectId": "95758",
+    "title": "The Risen Christ",
+    "artist": "Michelangelo Buonarroti",
+    "year": "18th/19th century",
+    "imageUrl": "https://www.artic.edu/iiif/2/f9c1b732-e6e0-d028-fa60-4ec0a4d40eb0/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/95758",
+    "license": "CC0",
+    "medium": "Graphite (recto and verso) on ivory wove paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-95897",
+    "provider": "artic",
+    "providerObjectId": "95897",
+    "title": "Half-Length Figure",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/ae251afc-bd2a-8e21-e817-23f85f6b6866/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/95897",
+    "license": "CC0",
+    "medium": "Charcoal on cream laid paper",
+    "classification": "charcoal",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-114900",
+    "provider": "artic",
+    "providerObjectId": "114900",
+    "title": "Two Struggling Figures",
+    "artist": "Michelangelo Buonarroti",
+    "year": "1867",
+    "imageUrl": "https://www.artic.edu/iiif/2/5925b873-75d8-1c7e-27b4-e10ad007bf99/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/114900",
+    "license": "CC0",
+    "medium": "Black crayon on cream wove card, laid down on wove paper",
+    "classification": "crayon",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "met-337075",
+    "provider": "met",
+    "providerObjectId": "337075",
+    "title": "Lucretia",
+    "artist": "Raphael (Raffaello Sanzio or Santi)",
+    "year": "1508–10",
+    "imageUrl": "https://images.metmuseum.org/CRDImages/dp/web-large/DP862672.jpg",
+    "sourceUrl": "https://www.metmuseum.org/art/collection/search/337075",
+    "license": "CC0",
+    "medium": "Pen and brown ink over black chalk, partially incised with a stylus (recto); rubbed with black chalk for transfer (verso)",
+    "classification": "Drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-114932",
+    "provider": "artic",
+    "providerObjectId": "114932",
+    "title": "Upraised Right Hand, with Palm Facing Outward: Study for Saint Peter",
+    "artist": "Raphael",
+    "year": "1518/20",
+    "imageUrl": "https://www.artic.edu/iiif/2/f00f93d0-ed84-aaea-d93a-b3417e97dd62/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/114932",
+    "license": "CC0",
+    "medium": "Black chalk, heightened with white chalk and lead white, partially oxidized, over stylus underdrawing, on cream laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-81291",
+    "provider": "artic",
+    "providerObjectId": "81291",
+    "title": "Guard Drawing His Sword",
+    "artist": "Raphael",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/d7d77ed2-ded1-50b9-aeb8-07a80e82249e/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/81291",
+    "license": "CC0",
+    "medium": "Black chalk on tan laid paper, edge mounted on buff laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-95896",
+    "provider": "artic",
+    "providerObjectId": "95896",
+    "title": "Head of Comity",
+    "artist": "Raphael",
+    "year": "c. 1750",
+    "imageUrl": "https://www.artic.edu/iiif/2/0e2fa0d4-c7d3-b181-630f-722e95dbf0ec/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/95896",
+    "license": "CC0",
+    "medium": "Red chalk on cream laid paper, laid down on cream wove paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-3697",
+    "provider": "artic",
+    "providerObjectId": "3697",
+    "title": "Psyche Presenting the Phial of Water to Venus",
+    "artist": "Raphael",
+    "year": "18th century",
+    "imageUrl": "https://www.artic.edu/iiif/2/749f1093-7713-4649-9eae-8fd35cef6c9e/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/3697",
+    "license": "CC0",
+    "medium": "Red chalk, with traces of graphite, on cream laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-82411",
+    "provider": "artic",
+    "providerObjectId": "82411",
+    "title": "Joanna of Aragon",
+    "artist": "Raphael",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/9295f959-8a26-6c91-efb8-22d944685e21/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/82411",
+    "license": "CC0",
+    "medium": "Black chalk with red chalk on ivory laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-84959",
+    "provider": "artic",
+    "providerObjectId": "84959",
+    "title": "Conversion of Saint Paul",
+    "artist": "Raphael",
+    "year": "18th century",
+    "imageUrl": "https://www.artic.edu/iiif/2/dc346a0d-a4b2-33c9-7264-6d57bda97dc7/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/84959",
+    "license": "CC0",
+    "medium": "Red chalk on ivory laid paper, laid down on wood pulp board",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-81782",
+    "provider": "artic",
+    "providerObjectId": "81782",
+    "title": "Last Supper",
+    "artist": "Raphael",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/5fe77541-a679-d338-c323-c7449d202d84/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/81782",
+    "license": "CC0",
+    "medium": "Pen and brown ink and brush and brown wash, with graphite additions, on cream laid paper, laid down on two layers of cream laid paper",
+    "classification": "ink and wash",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-3800",
+    "provider": "artic",
+    "providerObjectId": "3800",
+    "title": "Woman Carrying Water Jar",
+    "artist": "Raphael",
+    "year": "17th century",
+    "imageUrl": "https://www.artic.edu/iiif/2/ebe8a2da-0661-c8d9-7729-2179fdd3fbc1/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/3800",
+    "license": "CC0",
+    "medium": "Black chalk on tan laid paper, laid down on tan laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-82155",
+    "provider": "artic",
+    "providerObjectId": "82155",
+    "title": "Alcibiades and Two Philosophers",
+    "artist": "Raphael",
+    "year": "18th century",
+    "imageUrl": "https://www.artic.edu/iiif/2/448fbeea-8e85-cfb4-208b-e869d99cc927/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/82155",
+    "license": "CC0",
+    "medium": "Metalpoint and black chalk, with traces of white chalk, on pale blue-toned cream laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-81851",
+    "provider": "artic",
+    "providerObjectId": "81851",
+    "title": "Group of Youths",
+    "artist": "Raphael",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/7dbde2aa-f45d-4996-60b1-c4542b607137/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/81851",
+    "license": "CC0",
+    "medium": "Red chalk, with traces of black chalk, on tan laid paper, laid down on cream laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-84154",
+    "provider": "artic",
+    "providerObjectId": "84154",
+    "title": "Caryatid with Yoke and Scroll",
+    "artist": "Raphael",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/929b67e1-49ca-337a-d3cc-1ac9a1ca5c0c/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/84154",
+    "license": "CC0",
+    "medium": "Red chalk, with brush and red chalk wash, on ivory laid paper, laid down on card",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-109127",
+    "provider": "artic",
+    "providerObjectId": "109127",
+    "title": "Seated Youth",
+    "artist": "Raphael",
+    "year": "18th century",
+    "imageUrl": "https://www.artic.edu/iiif/2/37d7b5d2-312c-3592-f1cd-8fa99aea7c16/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/109127",
+    "license": "CC0",
+    "medium": "Black crayon on tan laid paper",
+    "classification": "crayon",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-55036",
+    "provider": "artic",
+    "providerObjectId": "55036",
+    "title": "Man and Woman Crowned with Laurel",
+    "artist": "Raphael",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/a7a6193a-a5c8-c133-d5b4-c6fcf0ac6c43/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/55036",
+    "license": "CC0",
+    "medium": "Red chalk on cream laid paper, laid down on ivory laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-84507",
+    "provider": "artic",
+    "providerObjectId": "84507",
+    "title": "Virgin and Sleeping Christ Child with the Infant John the Baptist",
+    "artist": "Raphael",
+    "year": "18th century",
+    "imageUrl": "https://www.artic.edu/iiif/2/b794a11d-42a5-7d33-465b-fcaa89bd6d8f/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/84507",
+    "license": "CC0",
+    "medium": "Pen and brown ink and brush and gray and brown wash, over traces of graphite, on tan laid paper",
+    "classification": "ink and wash",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-85357",
+    "provider": "artic",
+    "providerObjectId": "85357",
+    "title": "Head of Pythagoras",
+    "artist": "Raphael",
+    "year": "18th century",
+    "imageUrl": "https://www.artic.edu/iiif/2/29054630-604b-f29c-335e-eb7b25a1215c/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/85357",
+    "license": "CC0",
+    "medium": "Black and red chalk with stumping, heightened with white chalk, on blue laid paper, laid down on cream laid paper",
+    "classification": "chalk",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-51498",
+    "provider": "artic",
+    "providerObjectId": "51498",
+    "title": "Adam and Eve",
+    "artist": "Albrecht Dürer",
+    "year": "1504",
+    "imageUrl": "https://www.artic.edu/iiif/2/910855f0-a558-4e31-8e88-c0f2694ddbea/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/51498",
+    "license": "CC0",
+    "medium": "Engraving in black on ivory laid paper",
+    "classification": "engraving",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-55330",
+    "provider": "artic",
+    "providerObjectId": "55330",
+    "title": "The Four Horsemen of the Apocalypse, from The Apocalypse",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1496–98",
+    "imageUrl": "https://www.artic.edu/iiif/2/5d017b13-70a8-7b6a-1c2c-ef69d0f7dbb2/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/55330",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-19559",
+    "provider": "artic",
+    "providerObjectId": "19559",
+    "title": "The Lamentation, from The Large Passion",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1498–99",
+    "imageUrl": "https://www.artic.edu/iiif/2/ce36d103-0a28-b409-d441-6ee7806e835f/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/19559",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-11056",
+    "provider": "artic",
+    "providerObjectId": "11056",
+    "title": "Calvary",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1503–04",
+    "imageUrl": "https://www.artic.edu/iiif/2/93259665-fa1d-c166-6dec-ad51fe805848/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/11056",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-23506",
+    "provider": "artic",
+    "providerObjectId": "23506",
+    "title": "Young Bull",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1496, erroneously inscribed in another hand 1508",
+    "imageUrl": "https://www.artic.edu/iiif/2/d2529576-bbf0-c631-6f8c-659e825c552d/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/23506",
+    "license": "CC0",
+    "medium": "Pen and black ink on ivory laid paper",
+    "classification": "pen and ink drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-2287",
+    "provider": "artic",
+    "providerObjectId": "2287",
+    "title": "The Fifth Knot",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1507",
+    "imageUrl": "https://www.artic.edu/iiif/2/f8e9efbf-e143-8bd9-45b6-9f2065704859/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/2287",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-2289",
+    "provider": "artic",
+    "providerObjectId": "2289",
+    "title": "The Sixth Knot",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1507",
+    "imageUrl": "https://www.artic.edu/iiif/2/47dff228-15bc-fe81-f9b1-e6099b89728f/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/2289",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-2276",
+    "provider": "artic",
+    "providerObjectId": "2276",
+    "title": "The Second Knot",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1507",
+    "imageUrl": "https://www.artic.edu/iiif/2/9c5b9fb9-df2c-0174-f999-03a69cf58ed4/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/2276",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-4118",
+    "provider": "artic",
+    "providerObjectId": "4118",
+    "title": "Erasmus of Rotterdam",
+    "artist": "Albrecht Dürer",
+    "year": "1526",
+    "imageUrl": "https://www.artic.edu/iiif/2/4d06856a-ba89-07fa-68eb-2305246394c2/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/4118",
+    "license": "CC0",
+    "medium": "Engraving in black on ivory laid paper",
+    "classification": "engraving",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-2273",
+    "provider": "artic",
+    "providerObjectId": "2273",
+    "title": "The First Knot",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1507",
+    "imageUrl": "https://www.artic.edu/iiif/2/eed05c65-f9ea-eccf-afb2-59d4b36ba2a4/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/2273",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-19565",
+    "provider": "artic",
+    "providerObjectId": "19565",
+    "title": "The Harrowing of Hell - Christ in Limbo, plate nine from The Large Passion",
+    "artist": "Albrecht Dürer",
+    "year": "1510",
+    "imageUrl": "https://www.artic.edu/iiif/2/dfb8c120-2408-4f5d-1714-626ca64fe7aa/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/19565",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-2282",
+    "provider": "artic",
+    "providerObjectId": "2282",
+    "title": "The Fourth Knot",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1507",
+    "imageUrl": "https://www.artic.edu/iiif/2/0b9d24a2-e9c0-a978-1717-db1bd131f326/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/2282",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-11100",
+    "provider": "artic",
+    "providerObjectId": "11100",
+    "title": "Knight, Death, and the Devil",
+    "artist": "Albrecht Dürer",
+    "year": "1513",
+    "imageUrl": "https://www.artic.edu/iiif/2/afe2d15e-fb42-6b5c-706d-7457582e537b/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/11100",
+    "license": "CC0",
+    "medium": "Engraving in black on ivory laid paper",
+    "classification": "engraving",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-4055",
+    "provider": "artic",
+    "providerObjectId": "4055",
+    "title": "The Monstrous Sow of Landser",
+    "artist": "Albrecht Dürer",
+    "year": "1496",
+    "imageUrl": "https://www.artic.edu/iiif/2/4012b724-b193-b8ab-ba50-2afcd8f90192/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/4055",
+    "license": "CC0",
+    "medium": "Engraving in black on ivory laid paper",
+    "classification": "engraving",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-26997",
+    "provider": "artic",
+    "providerObjectId": "26997",
+    "title": "Hercules",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1496",
+    "imageUrl": "https://www.artic.edu/iiif/2/4200830c-bb87-f2a3-4643-ed033654d359/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/26997",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-84600",
+    "provider": "artic",
+    "providerObjectId": "84600",
+    "title": "Sketches of Horses' (or Dromedaries') Legs (recto); Columns (verso)",
+    "artist": "Follower of Leonardo da Vinci",
+    "year": "c. 1530",
+    "imageUrl": "https://www.artic.edu/iiif/2/842508b2-5cd8-b0b6-90f3-43b9fad5da64/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/84600",
+    "license": "CC0",
+    "medium": "Pen and brown ink (recto), and black chalk (verso) on tan laid paper",
+    "classification": "pen and ink drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-31778",
+    "provider": "artic",
+    "providerObjectId": "31778",
+    "title": "Heads of Horses and Unicorns",
+    "artist": "Follower of Leonardo da Vinci",
+    "year": "1530/40",
+    "imageUrl": "https://www.artic.edu/iiif/2/e5987da2-cc72-103f-3fe0-9eb8feee30e4/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/31778",
+    "license": "CC0",
+    "medium": "Pen and brown ink on tan laid paper, laid down on cream laid paper",
+    "classification": "pen and ink drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-95701",
+    "provider": "artic",
+    "providerObjectId": "95701",
+    "title": "Two Putti with Lamb",
+    "artist": "School of Leonardo da Vinci",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/890d07ce-32e4-c17b-f634-e3ea277223e0/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/95701",
+    "license": "CC0",
+    "medium": "Pen and brown ink, over red chalk, on cream laid paper, laid down on ivory wove paper",
+    "classification": "pen and ink drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-272694",
+    "provider": "artic",
+    "providerObjectId": "272694",
+    "title": "Divine Proportion",
+    "artist": "Leonardo da Vinci",
+    "year": "Venice: Paganinus de Paganinus, 1509",
+    "imageUrl": "https://www.artic.edu/iiif/2/28e2c365-a8c5-37b8-e113-28b96a06b6a4/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/272694",
+    "license": "CC0",
+    "medium": "Letterpress and woodcut in black with hand lettering in red ink, on ivory laid paper; binding in full buckram bookcloth",
+    "tags": [
+      "public-domain"
+    ]
+  }
+]

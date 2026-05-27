@@ -1,14 +1,14 @@
 import type { Artwork, ArtworkSearchParams } from '../types/artwork.js';
 import { searchMetArtworks } from './met.js';
 import { searchArticArtworks } from './artic.js';
-import { searchClevelandArtworks } from './cleveland.js';
 
 const TARGET_ARTISTS = [
-	{ query: 'Egon Schiele',        patterns: ['schiele'] },
-	{ query: 'Michelangelo',        patterns: ['michelangelo', 'buonarroti'] },
-	{ query: 'Raphael drawing',     patterns: ['raphael', 'raffaello', 'sanzio'] },
-	{ query: 'Albrecht Dürer',      patterns: ['dürer', 'durer', 'albrecht'] },
-	{ query: 'Leonardo da Vinci',   patterns: ['leonardo', 'da vinci', 'vinci'] },
+	{ query: 'Egon Schiele',        patterns: ['egon schiele', 'schiele, egon'] },
+	// Caravaggio の本名が Michelangelo Merisi のため buonarroti でのみ絞り込む
+	{ query: 'Michelangelo',        patterns: ['buonarroti', 'michelangelo buonarroti'] },
+	{ query: 'Raphael',             patterns: ['raphael', 'raffaello', 'sanzio'] },
+	{ query: 'Albrecht Dürer',      patterns: ['dürer', 'durer'] },
+	{ query: 'Leonardo da Vinci',   patterns: ['leonardo da vinci', 'da vinci, leonardo'] },
 ] as const;
 
 function isTargetArtist(artist: string): boolean {
@@ -40,37 +40,34 @@ async function loadCachedArtworks(): Promise<Artwork[]> {
 export async function searchArtworks(params: ArtworkSearchParams): Promise<Artwork[]> {
 	const limit = params.limit ?? 20;
 
-	// 5名全員を並列検索して結果を統合する（per-queryは少量に絞り過負荷防止）
-	const PER_QUERY_LIMIT = 8;
-	const providers = params.provider
-		? [params.provider]
-		: ['met', 'artic', 'cleveland'] as const;
+	// キャッシュが存在すれば優先して使用（CORSなし、高速）
+	const cached = await loadCachedArtworks();
+	if (cached.length > 0) {
+		const filtered = cached.filter((a) => !a.isHidden && a.imageUrl);
+		return shuffle(filtered).slice(0, limit);
+	}
 
-	const allQueries = TARGET_ARTISTS.map(({ query }) => query);
+	// キャッシュがなければ Met/ArtIC にフォールバック（Cleveland は CORS 非対応のため除外）
+	console.warn('キャッシュなし: ライブ API にフォールバックします');
+	const PER_QUERY_LIMIT = 6;
+	const providers = params.provider && params.provider !== 'cleveland'
+		? [params.provider]
+		: ['met', 'artic'] as const;
 
 	const results = await Promise.allSettled(
-		allQueries.flatMap((query) =>
+		TARGET_ARTISTS.flatMap(({ query }) =>
 			providers.map((p) => {
 				if (p === 'met') return searchMetArtworks(query, PER_QUERY_LIMIT);
 				if (p === 'artic') return searchArticArtworks(query, PER_QUERY_LIMIT);
-				if (p === 'cleveland') return searchClevelandArtworks(query, PER_QUERY_LIMIT);
 				return Promise.resolve([]);
 			})
 		)
 	);
 
+	const seen = new Set<string>();
 	let artworks: Artwork[] = results.flatMap((r) =>
 		r.status === 'fulfilled' ? r.value : []
-	);
-
-	if (artworks.length === 0) {
-		console.warn('API取得失敗: キャッシュから読み込みます');
-		artworks = await loadCachedArtworks();
-	}
-
-	// 重複除去 + 対象作家フィルター
-	const seen = new Set<string>();
-	artworks = artworks.filter((a) => {
+	).filter((a) => {
 		if (!a.imageUrl || a.isHidden) return false;
 		if (!isTargetArtist(a.artist)) return false;
 		if (seen.has(a.id)) return false;
