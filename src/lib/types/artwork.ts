@@ -1,6 +1,6 @@
 import type { Difficulty } from './difficulty.js';
 
-export type ArtworkProvider = 'met' | 'artic' | 'cleveland' | 'rijksmuseum';
+export type ArtworkProvider = 'met' | 'artic' | 'cleveland' | 'rijksmuseum' | 'wikidata';
 
 export type ArtworkTag =
 	| 'portrait'

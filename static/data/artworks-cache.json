@@ -1,5 +1,1387 @@
 [
   {
+    "id": "wikidata-Q19883002",
+    "provider": "wikidata",
+    "providerObjectId": "Q19883002",
+    "title": "Portrait of Johann Harms",
+    "artist": "Egon Schiele",
+    "year": "1916",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Egon_Schiele_066.jpg/960px-Egon_Schiele_066.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q19883002",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q71005591",
+    "provider": "wikidata",
+    "providerObjectId": "Q71005591",
+    "title": "Portrait of Edith Schiele with striped dress",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Schiele_-_Edith_Schiele_in_gestreiftem_Kleid_sitzend_-_1915.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q71005591",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q19883551",
+    "provider": "wikidata",
+    "providerObjectId": "Q19883551",
+    "title": "Portrait of Gerti Schiele",
+    "artist": "Egon Schiele",
+    "year": "1909",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Portrait_of_Gerti_Schiele_1909_Egon_Schiele.jpg/960px-Portrait_of_Gerti_Schiele_1909_Egon_Schiele.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q19883551",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28497837",
+    "provider": "wikidata",
+    "providerObjectId": "Q28497837",
+    "title": "Two women embracing",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Egon_Schiele_-_Zwei_sich_umarmende_Frauen_-_1911.jpeg/960px-Egon_Schiele_-_Zwei_sich_umarmende_Frauen_-_1911.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28497837",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q19922303",
+    "provider": "wikidata",
+    "providerObjectId": "Q19922303",
+    "title": "Street Cart",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Egon_Schiele_-_Marktstand_-_1914.jpeg/960px-Egon_Schiele_-_Marktstand_-_1914.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q19922303",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28498297",
+    "provider": "wikidata",
+    "providerObjectId": "Q28498297",
+    "title": "Egon Schiele - Zwei Freundinnen - 1915",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Egon_Schiele_-_Zwei_Freundinnen_-_1915.jpeg/960px-Egon_Schiele_-_Zwei_Freundinnen_-_1915.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28498297",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q19920799",
+    "provider": "wikidata",
+    "providerObjectId": "Q19920799",
+    "title": "Seated Woman, Back View",
+    "artist": "Egon Schiele",
+    "year": "1917",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Egon_Schiele_-_R%C3%BCckenansicht_einer_sitzenden_Frau_-_1917.jpeg/960px-Egon_Schiele_-_R%C3%BCckenansicht_einer_sitzenden_Frau_-_1917.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q19920799",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28497832",
+    "provider": "wikidata",
+    "providerObjectId": "Q28497832",
+    "title": "Lesbian lovers",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Egon_Schiele_-_Lesbisches_Liebespaar_-_1914.jpeg/960px-Egon_Schiele_-_Lesbisches_Liebespaar_-_1914.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28497832",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q61740236",
+    "provider": "wikidata",
+    "providerObjectId": "Q61740236",
+    "title": "Pregnant woman and the death (Mother and Death)",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Schwangere_und_Tod.jpg/960px-Schwangere_und_Tod.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q61740236",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q21712315",
+    "provider": "wikidata",
+    "providerObjectId": "Q21712315",
+    "title": "Self-Portrait",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Egon_Schiele_-_Selbstportr%C3%A4t_%281910%29.jpg/960px-Egon_Schiele_-_Selbstportr%C3%A4t_%281910%29.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q21712315",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q21712317",
+    "provider": "wikidata",
+    "providerObjectId": "Q21712317",
+    "title": "Seated Girl (Poldi Lodzinsky])",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Egon_Schiele_-_Sitzendes_M%C3%A4dchen_%28Poldi_Lodzinsky%29.jpg/960px-Egon_Schiele_-_Sitzendes_M%C3%A4dchen_%28Poldi_Lodzinsky%29.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q21712317",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q21712313",
+    "provider": "wikidata",
+    "providerObjectId": "Q21712313",
+    "title": "Nude Girl with Arms Outstretched",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Egon_Schiele_-_Nacktes_M%C3%A4dchen_mit_ausgestreckten_Armen.jpg/960px-Egon_Schiele_-_Nacktes_M%C3%A4dchen_mit_ausgestreckten_Armen.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q21712313",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q21712898",
+    "provider": "wikidata",
+    "providerObjectId": "Q21712898",
+    "title": "Houses on the River (The Old Town)",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Egon_Schiele_-_H%C3%A4user_am_Fluss.jpg/960px-Egon_Schiele_-_H%C3%A4user_am_Fluss.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q21712898",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q18684890",
+    "provider": "wikidata",
+    "providerObjectId": "Q18684890",
+    "title": "Girl Nude with Folded Arms",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Egon_Schiele_-_Girl_Nude_with_Folded_Arms%2C_1910_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Girl_Nude_with_Folded_Arms%2C_1910_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18684890",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q18684899",
+    "provider": "wikidata",
+    "providerObjectId": "Q18684899",
+    "title": "Self-Portrait in Yellow Vest",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Egon_Schiele_-_Self-Portrait_in_Yellow_Vest%2C_1914_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Self-Portrait_in_Yellow_Vest%2C_1914_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18684899",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q18684918",
+    "provider": "wikidata",
+    "providerObjectId": "Q18684918",
+    "title": "Nude Self-Portrait, Grimacing",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Egon_Schiele_-_Nude_Self-Portrait%2C_Grimacing_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Nude_Self-Portrait%2C_Grimacing_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18684918",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q18684943",
+    "provider": "wikidata",
+    "providerObjectId": "Q18684943",
+    "title": "I Will Gladly Endure for Art and My Loved Ones",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Egon_Schiele_-_I_Will_Gladly_Endure_for_Art_and_My_Loved_Ones%2C_1912_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_I_Will_Gladly_Endure_for_Art_and_My_Loved_Ones%2C_1912_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18684943",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q18684925",
+    "provider": "wikidata",
+    "providerObjectId": "Q18684925",
+    "title": "Old Houses in Krumau",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Egon_Schiele_-_Old_Houses_in_Krumau%2C_1914_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Old_Houses_in_Krumau%2C_1914_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18684925",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q18684879",
+    "provider": "wikidata",
+    "providerObjectId": "Q18684879",
+    "title": "Portrait of the Artist's Sister-in-Law, Adele Harms",
+    "artist": "Egon Schiele",
+    "year": "1917",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Egon_Schiele_-_Portrait_of_the_Artist%27s_Sister-in-Law%2C_Adele_Harms%2C_1917_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Portrait_of_the_Artist%27s_Sister-in-Law%2C_Adele_Harms%2C_1917_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18684879",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q18684961",
+    "provider": "wikidata",
+    "providerObjectId": "Q18684961",
+    "title": "Schiele with Nude Model before the Mirror",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Egon_Schiele_-_Schiele_with_Nude_Model_before_the_Mirror%2C_1910_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Schiele_with_Nude_Model_before_the_Mirror%2C_1910_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18684961",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q18684952",
+    "provider": "wikidata",
+    "providerObjectId": "Q18684952",
+    "title": "Self-Portrait with Eyelid Pulled Down",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Egon_Schiele_-_Self-Portrait_with_Eyelid_Pulled_Down%2C_1910_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Self-Portrait_with_Eyelid_Pulled_Down%2C_1910_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18684952",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q24050831",
+    "provider": "wikidata",
+    "providerObjectId": "Q24050831",
+    "title": "Portrait of Edith (the artist's wife)",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Egon_Schiele_-_Portrait_of_Edith_%28the_artist%27s_wife%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Portrait_of_Edith_%28the_artist%27s_wife%29_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q24050831",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28668192",
+    "provider": "wikidata",
+    "providerObjectId": "Q28668192",
+    "title": "Reclining Woman",
+    "artist": "Egon Schiele",
+    "year": "1917",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Egon_Schiele_-_Reclining_Woman_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Reclining_Woman_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28668192",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797688",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797688",
+    "title": "Mourning Woman",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Egon_Schiele_-_Mourning_Woman_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Mourning_Woman_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797688",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28780361",
+    "provider": "wikidata",
+    "providerObjectId": "Q28780361",
+    "title": "Crescent of Houses (The small City V)",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Egon_Schiele_-_Krumau_-_Crescent_of_Houses_%28The_small_City_V%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Krumau_-_Crescent_of_Houses_%28The_small_City_V%29_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28780361",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28780371",
+    "provider": "wikidata",
+    "providerObjectId": "Q28780371",
+    "title": "Landscape with Ravens",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Egon_Schiele_-_Landscape_with_Ravens_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Landscape_with_Ravens_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28780371",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q2445555",
+    "provider": "wikidata",
+    "providerObjectId": "Q2445555",
+    "title": "Dead City III",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Egon_Schiele_-_Dead_City_III_%28City_on_the_Blue_River_III%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Dead_City_III_%28City_on_the_Blue_River_III%29_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2445555",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q54917629",
+    "provider": "wikidata",
+    "providerObjectId": "Q54917629",
+    "title": "House with shingle roof",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Egon_Schiele_-_House_with_Shingle_Roof_%28Old_House_II%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_House_with_Shingle_Roof_%28Old_House_II%29_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q54917629",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q20891412",
+    "provider": "wikidata",
+    "providerObjectId": "Q20891412",
+    "title": "Portrait of Paris von Gütersloh",
+    "artist": "Egon Schiele",
+    "year": "1918",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Egon_Schiele_-_Portrait_of_Paris_von_G%C3%BCtersloh_%281887-1973%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Portrait_of_Paris_von_G%C3%BCtersloh_%281887-1973%29_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q20891412",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q19922234",
+    "provider": "wikidata",
+    "providerObjectId": "Q19922234",
+    "title": "Two Women Embracing",
+    "artist": "Egon Schiele",
+    "year": "1913",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Two_Women_Embracing_MET_DT6691.jpg/960px-Two_Women_Embracing_MET_DT6691.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q19922234",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q29906358",
+    "provider": "wikidata",
+    "providerObjectId": "Q29906358",
+    "title": "Sitting boy (Sitzender Knabe)",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/91/Egon_Schiele_-_Sitzender_Knabe_-_13576_-_Bavarian_State_Painting_Collections.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q29906358",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q30071686",
+    "provider": "wikidata",
+    "providerObjectId": "Q30071686",
+    "title": "Sitting girl (Sitzendes Mädchen)",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/64/Egon_Schiele_-_Sitzendes_M%C3%A4dchen_-_13575_-_Bavarian_State_Painting_Collections.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30071686",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q30076803",
+    "provider": "wikidata",
+    "providerObjectId": "Q30076803",
+    "title": "Standing Girl",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/40/Egon_Schiele_-_Stehendes_M%C3%A4dchen_-_13574_-_Bavarian_State_Painting_Collections.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30076803",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28009541",
+    "provider": "wikidata",
+    "providerObjectId": "Q28009541",
+    "title": "Portrait of Dr. Franz Martin Haberditzl",
+    "artist": "Egon Schiele",
+    "year": "1917",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Egon_Schiele_-_Bildnis_Dr._Franz_Martin_Haberditzl_-_9638_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Bildnis_Dr._Franz_Martin_Haberditzl_-_9638_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28009541",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28004505",
+    "provider": "wikidata",
+    "providerObjectId": "Q28004505",
+    "title": "Houses in winter (view from the studio)",
+    "artist": "Egon Schiele",
+    "year": "1907",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Egon_Schiele_-_H%C3%A4user_im_Winter_%28Blick_aus_dem_Atelier%29_-_5493_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_H%C3%A4user_im_Winter_%28Blick_aus_dem_Atelier%29_-_5493_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28004505",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28002638",
+    "provider": "wikidata",
+    "providerObjectId": "Q28002638",
+    "title": "Dr. Hugo Koller",
+    "artist": "Egon Schiele",
+    "year": "1918",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Egon_Schiele_-_Dr._Hugo_Koller_-_4296_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Dr._Hugo_Koller_-_4296_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28002638",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28002611",
+    "provider": "wikidata",
+    "providerObjectId": "Q28002611",
+    "title": "House wall (window wall)",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Egon_Schiele_-_Hauswand_%28Fensterwand%29_-_4278_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Hauswand_%28Fensterwand%29_-_4278_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28002611",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28003343",
+    "provider": "wikidata",
+    "providerObjectId": "Q28003343",
+    "title": "Portrait of Herbert Reiner",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Egon_Schiele_-_Reinerbub_%28Bildnis_Herbert_Reiner%29_-_4766_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Reinerbub_%28Bildnis_Herbert_Reiner%29_-_4766_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28003343",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28002878",
+    "provider": "wikidata",
+    "providerObjectId": "Q28002878",
+    "title": "Mother with two children III",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Egon_Schiele_-_Mutter_mit_zwei_Kindern_III_-_4473_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Mutter_mit_zwei_Kindern_III_-_4473_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28002878",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q19967004",
+    "provider": "wikidata",
+    "providerObjectId": "Q19967004",
+    "title": "The embrace",
+    "artist": "Egon Schiele",
+    "year": "1917",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Egon_Schiele_-_Die_Umarmung_-_4438_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Die_Umarmung_-_4438_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q19967004",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q2438357",
+    "provider": "wikidata",
+    "providerObjectId": "Q2438357",
+    "title": "Death and the Maiden",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Egon_Schiele_-_Tod_und_M%C3%A4dchen_-_3171_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Tod_und_M%C3%A4dchen_-_3171_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q2438357",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q64557988",
+    "provider": "wikidata",
+    "providerObjectId": "Q64557988",
+    "title": "Dancer (Die Tänzerin)",
+    "artist": "Egon Schiele",
+    "year": "1913",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Egon_Schiele%2C_Dancer_%28Die_T%C3%A4nzerin%29%2C_1913%2C_NGA_71829.jpg/960px-Egon_Schiele%2C_Dancer_%28Die_T%C3%A4nzerin%29%2C_1913%2C_NGA_71829.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q64557988",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q64557973",
+    "provider": "wikidata",
+    "providerObjectId": "Q64557973",
+    "title": "Dr. Ernst Wagner",
+    "artist": "Egon Schiele",
+    "year": "1918",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Egon_Schiele%2C_Dr._Ernst_Wagner%2C_1918%2C_NGA_63036.jpg/960px-Egon_Schiele%2C_Dr._Ernst_Wagner%2C_1918%2C_NGA_63036.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q64557973",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q64557972",
+    "provider": "wikidata",
+    "providerObjectId": "Q64557972",
+    "title": "Dr. Koller",
+    "artist": "Egon Schiele",
+    "year": "1918",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Egon_Schiele%2C_Dr._Koller%2C_c._1918%2C_NGA_48686.jpg/960px-Egon_Schiele%2C_Dr._Koller%2C_c._1918%2C_NGA_48686.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q64557972",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q64557992",
+    "provider": "wikidata",
+    "providerObjectId": "Q64557992",
+    "title": "Female Nude Bending to the Left",
+    "artist": "Egon Schiele",
+    "year": "1918",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Egon_Schiele%2C_Female_Nude_Bending_to_the_Left%2C_1918%2C_NGA_152776.jpg/960px-Egon_Schiele%2C_Female_Nude_Bending_to_the_Left%2C_1918%2C_NGA_152776.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q64557992",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q64557993",
+    "provider": "wikidata",
+    "providerObjectId": "Q64557993",
+    "title": "Head of a Woman",
+    "artist": "Egon Schiele",
+    "year": "1908",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Egon_Schiele%2C_Head_of_a_Woman%2C_1908%2C_NGA_206401.jpg/960px-Egon_Schiele%2C_Head_of_a_Woman%2C_1908%2C_NGA_206401.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q64557993",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q64557994",
+    "provider": "wikidata",
+    "providerObjectId": "Q64557994",
+    "title": "Standing Nude with a Patterned Robe",
+    "artist": "Egon Schiele",
+    "year": "1917",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Egon_Schiele%2C_Standing_Nude_with_a_Patterned_Robe%2C_1917%2C_NGA_206402.jpg/960px-Egon_Schiele%2C_Standing_Nude_with_a_Patterned_Robe%2C_1917%2C_NGA_206402.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q64557994",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q65567927",
+    "provider": "wikidata",
+    "providerObjectId": "Q65567927",
+    "title": "Kummernis",
+    "artist": "Egon Schiele",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Egon_Schiele%2C_Kummernis%2C_published_1922%2C_NGA_52870.jpg/960px-Egon_Schiele%2C_Kummernis%2C_published_1922%2C_NGA_52870.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q65567927",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28010323",
+    "provider": "wikidata",
+    "providerObjectId": "Q28010323",
+    "title": "City on the Blue River II",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Schiele_-_work-p212.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28010323",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q12096465",
+    "provider": "wikidata",
+    "providerObjectId": "Q12096465",
+    "title": "Crucifixion with Darkened Sun",
+    "artist": "Egon Schiele",
+    "year": "1907",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Schiele_-_Kreuzigung_mit_verfinsterter_Sonne_%28Crucifixion_with_Darkened_Sun%29_%281907%29.jpeg/960px-Schiele_-_Kreuzigung_mit_verfinsterter_Sonne_%28Crucifixion_with_Darkened_Sun%29_%281907%29.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q12096465",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q30074348",
+    "provider": "wikidata",
+    "providerObjectId": "Q30074348",
+    "title": "Agony (The Death Struggle)",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Egon_Schiele_-_Agonie_%28Der_Todeskampf%29.jpg/960px-Egon_Schiele_-_Agonie_%28Der_Todeskampf%29.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30074348",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797683",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797683",
+    "title": "Crescent of Houses II (Island Town)",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Egon_Schiele_-_Der_H%C3%A4userbogen_II_%281915%29.jpg/960px-Egon_Schiele_-_Der_H%C3%A4userbogen_II_%281915%29.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797683",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q73880529",
+    "provider": "wikidata",
+    "providerObjectId": "Q73880529",
+    "title": "Black-haired Girl with raised Skirt",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Egon_Schiele_071.jpg/960px-Egon_Schiele_071.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q73880529",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q121841261",
+    "provider": "wikidata",
+    "providerObjectId": "Q121841261",
+    "title": "Stein on the Danube, Seen from the South (Large)",
+    "artist": "Egon Schiele",
+    "year": "1913",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Egon_Schiele_088.jpg/960px-Egon_Schiele_088.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q121841261",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q12096061",
+    "provider": "wikidata",
+    "providerObjectId": "Q12096061",
+    "title": "Still life with crockery",
+    "artist": "Egon Schiele",
+    "year": "1918",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Egon_Schiele_089.jpg/960px-Egon_Schiele_089.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q12096061",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q19973869",
+    "provider": "wikidata",
+    "providerObjectId": "Q19973869",
+    "title": "The Port of Trieste",
+    "artist": "Egon Schiele",
+    "year": "1907",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Schiele_Hafen-triest.jpg/960px-Schiele_Hafen-triest.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q19973869",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q30750501",
+    "provider": "wikidata",
+    "providerObjectId": "Q30750501",
+    "title": "Couple lesbien",
+    "artist": "Egon Schiele",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Schiele_-_Lesbisches_Paar_-_1916.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q30750501",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q124655368",
+    "provider": "wikidata",
+    "providerObjectId": "Q124655368",
+    "title": "Russian War Prisoner",
+    "artist": "Egon Schiele",
+    "year": "1916",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Schiele_-_Russischer_Kriegsgefangener-_Grigori_Kladjischuili_-_1916.jpg/960px-Schiele_-_Russischer_Kriegsgefangener-_Grigori_Kladjischuili_-_1916.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q124655368",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q107645899",
+    "provider": "wikidata",
+    "providerObjectId": "Q107645899",
+    "title": "Self-Portrait with Bare Shoulder",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Schiele_-_Selbstbildnis_mit_hochgezogener_nackter_Schulter_-_1912.jpg/960px-Schiele_-_Selbstbildnis_mit_hochgezogener_nackter_Schulter_-_1912.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q107645899",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q20189436",
+    "provider": "wikidata",
+    "providerObjectId": "Q20189436",
+    "title": "Self-Portrait",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Egon_Schiele_-_Selbstildnis_-1911.jpeg/960px-Egon_Schiele_-_Selbstildnis_-1911.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q20189436",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q115159944",
+    "provider": "wikidata",
+    "providerObjectId": "Q115159944",
+    "title": "Female nude with blue cloth",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Egon_Schiele_-_Stehender_weiblicher_Akt_mit_blauem_Tuch_-_1914.jpeg/960px-Egon_Schiele_-_Stehender_weiblicher_Akt_mit_blauem_Tuch_-_1914.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q115159944",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q115385620",
+    "provider": "wikidata",
+    "providerObjectId": "Q115385620",
+    "title": "Woman with black Hair",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Egon_Schiele_-_Frau_mit_schwarzem_Haar_-_1914.jpeg/960px-Egon_Schiele_-_Frau_mit_schwarzem_Haar_-_1914.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q115385620",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q18684909",
+    "provider": "wikidata",
+    "providerObjectId": "Q18684909",
+    "title": "Female Lovers",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Egon_Schiele_-_Weibliches_Liebespaar_-_1915.jpeg/960px-Egon_Schiele_-_Weibliches_Liebespaar_-_1915.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18684909",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q71035820",
+    "provider": "wikidata",
+    "providerObjectId": "Q71035820",
+    "title": "Wally Neuzil in Black Stockings",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/Egon_Schiele%2C_Wally_Neuzil_in_Black_Stockings%2C_1912.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q71035820",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q18684934",
+    "provider": "wikidata",
+    "providerObjectId": "Q18684934",
+    "title": "Seated Couple",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Egon_Schiele_-_Seated_Couple%2C_1915_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Seated_Couple%2C_1915_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q18684934",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28780356",
+    "provider": "wikidata",
+    "providerObjectId": "Q28780356",
+    "title": "Setting Sun",
+    "artist": "Egon Schiele",
+    "year": "1913",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Egon_Schiele_-_Setting_Sun_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Setting_Sun_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28780356",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797682",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797682",
+    "title": "Cardinal and Nun (Caress)",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Egon_Schiele_-_Cardinal_and_Nun_%28Caress%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Cardinal_and_Nun_%28Caress%29_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797682",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797687",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797687",
+    "title": "Levitation (The Blind II)",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Egon_Schiele_-_Levitation_%28The_Blind_II%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Levitation_%28The_Blind_II%29_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797687",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797686",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797686",
+    "title": "House Wall on the River",
+    "artist": "Egon Schiele",
+    "year": "1915",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Egon_Schiele_-_House_Wall_on_the_River_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_House_Wall_on_the_River_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797686",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797697",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797697",
+    "title": "The Lyricist",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Egon_Schiele_-_The_Lyricist_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_The_Lyricist_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797697",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797692",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797692",
+    "title": "Self-Portrait with Lowered Head",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Egon_Schiele_-_Self-Portrait_with_Lowered_Head_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Self-Portrait_with_Lowered_Head_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797692",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q1555137",
+    "provider": "wikidata",
+    "providerObjectId": "Q1555137",
+    "title": "Portrait of Wally",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Egon_Schiele_-_Portrait_of_Wally_Neuzil_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Portrait_of_Wally_Neuzil_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q1555137",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797693",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797693",
+    "title": "Self-Portrait with Physalis",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Egon_Schiele_-_Self-Portrait_with_Physalis_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Self-Portrait_with_Physalis_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797693",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797691",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797691",
+    "title": "Seated Male Nude (Self-Portrait)",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Egon_Schiele_-_Seated_Male_Nude_%28Self-Portrait%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Seated_Male_Nude_%28Self-Portrait%29_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797691",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797685",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797685",
+    "title": "Dead Mother I",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Egon_Schiele_-_Dead_Mother_I_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Dead_Mother_I_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797685",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797696",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797696",
+    "title": "The Hermits",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Egon_Schiele_-_The_Hermits_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_The_Hermits_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797696",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797695",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797695",
+    "title": "Small Tree in Late Autumn",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Egon_Schiele_-_Small_Tree_in_Late_Autumn_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Small_Tree_in_Late_Autumn_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797695",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797681",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797681",
+    "title": "Autumn Tree in Stirred Air (Winter Tree)",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Egon_Schiele_-_Autumn_Tree_in_Stirred_Air_%28Winter_Tree%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Autumn_Tree_in_Stirred_Air_%28Winter_Tree%29_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797681",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28797694",
+    "provider": "wikidata",
+    "providerObjectId": "Q28797694",
+    "title": "Self-Seer II (Death and Man)",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Egon_Schiele_-_Self-Seer_II_%28Death_and_Man%29_-_Google_Art_Project.jpg/960px-Egon_Schiele_-_Self-Seer_II_%28Death_and_Man%29_-_Google_Art_Project.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28797694",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q136031910",
+    "provider": "wikidata",
+    "providerObjectId": "Q136031910",
+    "title": "Revelation",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Revelation_Egon_Schiele_1911.jpg/960px-Revelation_Egon_Schiele_1911.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q136031910",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q126007852",
+    "provider": "wikidata",
+    "providerObjectId": "Q126007852",
+    "title": "Houses with Laundry (Suburb II)",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Egon_Schiele_-_H%C3%A4user_mit_bunter_W%C3%A4sche_%281914%29.jpg/960px-Egon_Schiele_-_H%C3%A4user_mit_bunter_W%C3%A4sche_%281914%29.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q126007852",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q20200090",
+    "provider": "wikidata",
+    "providerObjectId": "Q20200090",
+    "title": "Standing Girl, Back View",
+    "artist": "Egon Schiele",
+    "year": "1908",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Standing_Girl%2C_Back_View_MET_DT7919.jpg/960px-Standing_Girl%2C_Back_View_MET_DT7919.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q20200090",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q20199773",
+    "provider": "wikidata",
+    "providerObjectId": "Q20199773",
+    "title": "Standing Nude with Orange Drapery",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Standing_Nude_with_Orange_Drapery_MET_DP-13960-001.jpg/960px-Standing_Nude_with_Orange_Drapery_MET_DP-13960-001.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q20199773",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q20200092",
+    "provider": "wikidata",
+    "providerObjectId": "Q20200092",
+    "title": "Crouching Nude in Shoes and Black Stockings, Back View",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Crouching_Nude_in_Shoes_and_Black_Stockings%2C_Back_View_MET_DP-13958-001.jpg/960px-Crouching_Nude_in_Shoes_and_Black_Stockings%2C_Back_View_MET_DP-13958-001.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q20200092",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q57172760",
+    "provider": "wikidata",
+    "providerObjectId": "Q57172760",
+    "title": "Dämmernde Stadt",
+    "artist": "Egon Schiele",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/City_in_Twilight_%28The_Small_City_II%29_by_Egon_Schiele%2C_1913.jpg/960px-City_in_Twilight_%28The_Small_City_II%29_by_Egon_Schiele%2C_1913.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q57172760",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28001378",
+    "provider": "wikidata",
+    "providerObjectId": "Q28001378",
+    "title": "Portrait of Victor Ritter von Bauer",
+    "artist": "Egon Schiele",
+    "year": "1918",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Egon_Schiele_-_Victor_Ritter_von_Bauer_-_3158_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Victor_Ritter_von_Bauer_-_3158_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28001378",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q27999457",
+    "provider": "wikidata",
+    "providerObjectId": "Q27999457",
+    "title": "Portrait of the artist's wife, Edith Schiele",
+    "artist": "Egon Schiele",
+    "year": "1918",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Egon_Schiele_-_Bildnis_der_Frau_des_K%C3%BCnstlers%2C_Edith_Schiele_-_1991_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Bildnis_der_Frau_des_K%C3%BCnstlers%2C_Edith_Schiele_-_1991_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q27999457",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28008418",
+    "provider": "wikidata",
+    "providerObjectId": "Q28008418",
+    "title": "Sunflowers I",
+    "artist": "Egon Schiele",
+    "year": "1911",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Egon_Schiele_-_Sonnenblumen_I_-_2494_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Sonnenblumen_I_-_2494_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28008418",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28005898",
+    "provider": "wikidata",
+    "providerObjectId": "Q28005898",
+    "title": "Interior",
+    "artist": "Egon Schiele",
+    "year": "1907",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Egon_Schiele_-_Interieur_-_6621_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Interieur_-_6621_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28005898",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28002609",
+    "provider": "wikidata",
+    "providerObjectId": "Q28002609",
+    "title": "The Family",
+    "artist": "Egon Schiele",
+    "year": "1918",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Egon_Schiele_-_Kauerndes_Menschenpaar_%28Die_Familie%29_-_4277_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Kauerndes_Menschenpaar_%28Die_Familie%29_-_4277_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28002609",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q28003303",
+    "provider": "wikidata",
+    "providerObjectId": "Q28003303",
+    "title": "Eduard Kosmack",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Egon_Schiele_-_Eduard_Kosmack_-_4702_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Eduard_Kosmack_-_4702_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q28003303",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q58371583",
+    "provider": "wikidata",
+    "providerObjectId": "Q58371583",
+    "title": "Four trees",
+    "artist": "Egon Schiele",
+    "year": "1917",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Egon_Schiele_-_Vier_B%C3%A4ume_-_3917_-_%C3%96sterreichische_Galerie_Belvedere.jpg/960px-Egon_Schiele_-_Vier_B%C3%A4ume_-_3917_-_%C3%96sterreichische_Galerie_Belvedere.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q58371583",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q63860820",
+    "provider": "wikidata",
+    "providerObjectId": "Q63860820",
+    "title": "Self-Portrait",
+    "artist": "Egon Schiele",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Egon_Schiele%2C_Self-Portrait%2C_c._1917%2C_cast_c._1925-1928%2C_NGA_72168.jpg/960px-Egon_Schiele%2C_Self-Portrait%2C_c._1917%2C_cast_c._1925-1928%2C_NGA_72168.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q63860820",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q64557990",
+    "provider": "wikidata",
+    "providerObjectId": "Q64557990",
+    "title": "Mountain Stream",
+    "artist": "Egon Schiele",
+    "year": "1917",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Egon_Schiele%2C_Mountain_Stream%2C_1917%2C_NGA_151198.jpg/960px-Egon_Schiele%2C_Mountain_Stream%2C_1917%2C_NGA_151198.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q64557990",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q64557989",
+    "provider": "wikidata",
+    "providerObjectId": "Q64557989",
+    "title": "Self-Portrait",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Egon_Schiele%2C_Self-Portrait%2C_1912%2C_NGA_82933.jpg/960px-Egon_Schiele%2C_Self-Portrait%2C_1912%2C_NGA_82933.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q64557989",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q76556958",
+    "provider": "wikidata",
+    "providerObjectId": "Q76556958",
+    "title": "Portrait of Arthur Roessler",
+    "artist": "Egon Schiele",
+    "year": "1914",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Egon_Schiele%2C_Portrait_of_Arthur_Roessler%2C_1914%2C_NGA_153867.jpg/960px-Egon_Schiele%2C_Portrait_of_Arthur_Roessler%2C_1914%2C_NGA_153867.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q76556958",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q136023614",
+    "provider": "wikidata",
+    "providerObjectId": "Q136023614",
+    "title": "Portrait of Arthur Roessler",
+    "artist": "Egon Schiele",
+    "year": "1910",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Schiele_-_Portr%C3%A4t_Arthur_Roessler%2C_1910.jpg/960px-Schiele_-_Portr%C3%A4t_Arthur_Roessler%2C_1910.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q136023614",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q131586030",
+    "provider": "wikidata",
+    "providerObjectId": "Q131586030",
+    "title": "Egon Schiele - Tote Stadt VI. Die kleine Stadt I - 1964-0001 - Kunsthaus Zürich",
+    "artist": "Egon Schiele",
+    "year": "1912",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Egon_Schiele_-_Tote_Stadt_VI._Die_kleine_Stadt_I_-_1964-0001_-_Kunsthaus_Z%C3%BCrich.jpg/960px-Egon_Schiele_-_Tote_Stadt_VI._Die_kleine_Stadt_I_-_1964-0001_-_Kunsthaus_Z%C3%BCrich.jpg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q131586030",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "wikidata-Q136471516",
+    "provider": "wikidata",
+    "providerObjectId": "Q136471516",
+    "title": "Schiele, Egon - Mädchen 1907",
+    "artist": "Egon Schiele",
+    "year": "1907",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Schiele%2C_Egon_-_M%C3%A4dchen_1907.jpeg/960px-Schiele%2C_Egon_-_M%C3%A4dchen_1907.jpeg",
+    "sourceUrl": "https://www.wikidata.org/wiki/Q136471516",
+    "license": "CC0",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
     "id": "artic-29424",
     "provider": "artic",
     "providerObjectId": "29424",
@@ -272,6 +1654,86 @@
     ]
   },
   {
+    "id": "artic-85735",
+    "provider": "artic",
+    "providerObjectId": "85735",
+    "title": "Family Group: Ozias, King of Judah, Nursed by his Mother",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/020007ce-f06f-40bb-d9a6-6ff0413bd1cd/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/85735",
+    "license": "CC0",
+    "medium": "Pen and brown ink, with graphite, on tan laid paper",
+    "classification": "pen and ink drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-81701",
+    "provider": "artic",
+    "providerObjectId": "81701",
+    "title": "Male Head",
+    "artist": "Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/3646e4f7-8d20-73b8-df91-23104ae32b9b/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/81701",
+    "license": "CC0",
+    "medium": "Pen and black and brown ink, on cream laid paper, hinged onto cream wove paper",
+    "classification": "pen and ink drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-82324",
+    "provider": "artic",
+    "providerObjectId": "82324",
+    "title": "Crucified Christ or Marsyas",
+    "artist": "Follower of Michelangelo Buonarroti",
+    "year": "1585/95",
+    "imageUrl": "https://www.artic.edu/iiif/2/173b48ad-e05f-0bf3-93f3-51dcc3487032/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/82324",
+    "license": "CC0",
+    "medium": "Pen and brown ink, heightened with lead white (partially oxidized), on cream laid paper, squared in black chalk, laid down on ivory wove paper",
+    "classification": "pen and ink drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-81698",
+    "provider": "artic",
+    "providerObjectId": "81698",
+    "title": "Anatomical Study and Sketch of Kneeling Figure",
+    "artist": "Follower of Michelangelo Buonarroti",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/e8948a96-e39b-9b94-8019-4e97f216d181/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/81698",
+    "license": "CC0",
+    "medium": "Pen and brown ink on ivory laid paper",
+    "classification": "pen and ink drawings",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-114901",
+    "provider": "artic",
+    "providerObjectId": "114901",
+    "title": "Two Struggling Figures",
+    "artist": "Michelangelo Buonarroti",
+    "year": "c. 1867",
+    "imageUrl": "https://www.artic.edu/iiif/2/bfecaf5c-bc5d-28c8-e653-3e53dd9b8cd7/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/114901",
+    "license": "CC0",
+    "medium": "Graphite on ivory wove paper, laid down on ivory wove paper",
+    "classification": "graphite",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
     "id": "met-337075",
     "provider": "met",
     "providerObjectId": "337075",
@@ -528,6 +1990,86 @@
     ]
   },
   {
+    "id": "artic-82687",
+    "provider": "artic",
+    "providerObjectId": "82687",
+    "title": "Jacob's Dream",
+    "artist": "Raphael",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/f7b0f1e0-efbf-9434-a061-62763c62e40c/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/82687",
+    "license": "CC0",
+    "medium": "Pen and brown ink and brush and brown wash, heightened with lead white, on tan laid paper",
+    "classification": "ink with wash",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-80989",
+    "provider": "artic",
+    "providerObjectId": "80989",
+    "title": "Design for Funerary Monument to the Marchese Francesco Gonzaga",
+    "artist": "Raphael",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/086c9b86-1c21-1ea2-0388-1e95817c4ccc/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/80989",
+    "license": "CC0",
+    "medium": "Pen and brown ink, with brush and brown wash, heightened with lead white (partly oxidized), on tan laid paper, laid down on ivory wove paper",
+    "classification": "ink with wash",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-114240",
+    "provider": "artic",
+    "providerObjectId": "114240",
+    "title": "Lucretia",
+    "artist": "Raphael",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/4d00ec3b-5afa-c930-1123-0e2fe3118233/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/114240",
+    "license": "CC0",
+    "medium": "Pen and black ink, with brush and gray wash, on on brown prepared laid paper",
+    "classification": "ink with wash",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-109637",
+    "provider": "artic",
+    "providerObjectId": "109637",
+    "title": "Putto",
+    "artist": "Raphael",
+    "year": "n.d.",
+    "imageUrl": "https://www.artic.edu/iiif/2/88c41de4-dde4-294e-507f-9eb75fbbb6b9/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/109637",
+    "license": "CC0",
+    "medium": "Black crayon, heightened with traces of white chalk, on tan wove paper",
+    "classification": "crayon",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-112178",
+    "provider": "artic",
+    "providerObjectId": "112178",
+    "title": "Parnassus",
+    "artist": "Raphael",
+    "year": "1600/25",
+    "imageUrl": "https://www.artic.edu/iiif/2/59ef756c-dec1-59b5-9513-d1073f615f7e/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/112178",
+    "license": "CC0",
+    "medium": "Pen and brown ink and brush and brown wash, heightened with lead white (oxidized), on tan laid paper",
+    "classification": "ink with wash",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
     "id": "artic-51498",
     "provider": "artic",
     "providerObjectId": "51498",
@@ -763,6 +2305,86 @@
     "license": "CC0",
     "medium": "Woodcut in black on ivory laid paper",
     "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-4152",
+    "provider": "artic",
+    "providerObjectId": "4152",
+    "title": "The Annunciation, from The Life of the Virgin",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1503, published 1511",
+    "imageUrl": "https://www.artic.edu/iiif/2/32f4b7ec-9595-d66c-76f4-4a97c61720ff/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/4152",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-2279",
+    "provider": "artic",
+    "providerObjectId": "2279",
+    "title": "The Third Knot",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1507",
+    "imageUrl": "https://www.artic.edu/iiif/2/759c822e-471c-0db8-ac3f-8c080b204cb0/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/2279",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-28260",
+    "provider": "artic",
+    "providerObjectId": "28260",
+    "title": "Melencolia I",
+    "artist": "Albrecht Dürer",
+    "year": "1514",
+    "imageUrl": "https://www.artic.edu/iiif/2/509681b4-1348-6335-f7e5-9a30b62d3b27/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/28260",
+    "license": "CC0",
+    "medium": "Engraving in black on ivory laid paper",
+    "classification": "engraving",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-4159",
+    "provider": "artic",
+    "providerObjectId": "4159",
+    "title": "The Adoration of the Shepherds, from The Life of the Virgin",
+    "artist": "Albrecht Dürer",
+    "year": "c. 1503",
+    "imageUrl": "https://www.artic.edu/iiif/2/a2b54f94-ba41-15df-24c1-43500626d001/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/4159",
+    "license": "CC0",
+    "medium": "Woodcut in black on ivory laid paper",
+    "classification": "woodcut",
+    "tags": [
+      "public-domain"
+    ]
+  },
+  {
+    "id": "artic-4086",
+    "provider": "artic",
+    "providerObjectId": "4086",
+    "title": "Sudarium Displayed by Two Angels",
+    "artist": "Albrecht Dürer",
+    "year": "1513",
+    "imageUrl": "https://www.artic.edu/iiif/2/bfa8d3f4-6833-f32a-18c4-8a388cd38d42/full/843,/0/default.jpg",
+    "sourceUrl": "https://www.artic.edu/artworks/4086",
+    "license": "CC0",
+    "medium": "Engraving in black on ivory laid paper",
+    "classification": "engraving",
     "tags": [
       "public-domain"
     ]

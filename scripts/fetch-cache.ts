@@ -37,6 +37,9 @@ const TARGET_ARTISTS = [
 
 const DRAWING_KEYWORDS = ['drawing', 'drawings', 'sketch', 'study', 'paper', 'pencil', 'ink', 'chalk', 'charcoal', 'watercolor', 'gouache', 'croquis'];
 
+// 油彩・キャンバスを明示的に除外するキーワード（Schiele描画フィルタで使用）
+const OIL_PAINT_MATERIALS = ['oil paint', 'canvas', 'linen', 'tempera', 'fresco'];
+
 function isDrawingLike(text: string): boolean {
 	const lower = text.toLowerCase();
 	return DRAWING_KEYWORDS.some((kw) => lower.includes(kw));
@@ -54,7 +57,6 @@ async function sleep(ms: number) {
 // ─── Met Museum ───────────────────────────────────────────────────────────────
 
 async function fetchMet(query: string, metQuery: string): Promise<Artwork[]> {
-	// artistOrCulture=true は結果0を返すケースがあるため使用しない
 	const url = `https://collectionapi.metmuseum.org/public/collection/v1/search?q=${encodeURIComponent(metQuery)}&hasImages=true`;
 	const HEADERS = { 'User-Agent': 'Mozilla/5.0 (compatible; OekakiJotatsuClub/1.0; build-cache-script)' };
 	let searchResult: { objectIDs?: number[] };
@@ -127,7 +129,7 @@ async function fetchArtic(query: string): Promise<Artwork[]> {
 				isDrawingLike([item.medium_display, item.classification_title, item.title].join(' '))
 			)
 			.filter((item: Record<string, unknown>) => isTargetArtist(String(item.artist_title ?? '')))
-			.slice(0, 15)
+			.slice(0, 20)
 			.map((item: Record<string, unknown>) => ({
 				id: `artic-${item.id}`,
 				provider: 'artic',
@@ -148,40 +150,173 @@ async function fetchArtic(query: string): Promise<Artwork[]> {
 	}
 }
 
+// ─── Wikidata / Wikimedia Commons（Schiele 専用）────────────────────────────
+
+interface WikidataBinding {
+	item: { value: string };
+	label?: { value: string };
+	image: { value: string };
+	date?: { value: string };
+	material?: { value: string };
+}
+
+async function fetchWikidataSchiele(targetCount = 60): Promise<Artwork[]> {
+	// 油彩・キャンバス材料を除外してデッサン・水彩中心に取得
+	const oilFilter = OIL_PAINT_MATERIALS.map((m) => `"${m}"`).join(', ');
+	const sparql = `
+SELECT DISTINCT ?item ?label ?image ?date WHERE {
+  ?item wdt:P170 wd:Q44032 .
+  ?item wdt:P18 ?image .
+  OPTIONAL { ?item rdfs:label ?label FILTER(LANG(?label) = 'en') }
+  OPTIONAL { ?item wdt:P571 ?date }
+  FILTER NOT EXISTS {
+    ?item wdt:P186 ?mat .
+    ?mat rdfs:label ?matLabel FILTER(LANG(?matLabel) = 'en') .
+    FILTER(?matLabel IN (${oilFilter}))
+  }
+} LIMIT 200`;
+
+	let bindings: WikidataBinding[] = [];
+	try {
+		const res = await fetch(
+			'https://query.wikidata.org/sparql?query=' + encodeURIComponent(sparql),
+			{ headers: { Accept: 'application/json', 'User-Agent': 'OekakiJotatsuClub/1.0' } }
+		);
+		const data = await res.json();
+		bindings = data.results?.bindings ?? [];
+		console.log(`  Wikidata: ${bindings.length} candidates`);
+	} catch (e) {
+		console.warn('  Wikidata SPARQL failed:', e);
+		return [];
+	}
+
+	// Special:FilePath URL から filename を取り出す
+	const entries = bindings.map((b) => {
+		const filePath = b.image?.value ?? '';
+		const filename = decodeURIComponent(
+			filePath.replace('http://commons.wikimedia.org/wiki/Special:FilePath/', '')
+		);
+		const itemId = b.item.value.replace('http://www.wikidata.org/entity/', '');
+		return {
+			filename,
+			itemId,
+			title: b.label?.value ?? filename.replace(/_/g, ' ').replace(/\.[^.]+$/, ''),
+			year: b.date?.value?.slice(0, 4),
+		};
+	});
+
+	// Wikimedia Commons API でサムネイル URL をバッチ取得（50件ずつ）
+	const BATCH = 50;
+	const artworks: Artwork[] = [];
+	const seen = new Set<string>();
+
+	for (let i = 0; i < entries.length && artworks.length < targetCount; i += BATCH) {
+		const batch = entries.slice(i, i + BATCH);
+		const titles = batch.map((e) => 'File:' + e.filename).join('|');
+
+		try {
+			const apiUrl =
+				'https://commons.wikimedia.org/w/api.php?action=query' +
+				'&prop=imageinfo&iiprop=url&iiurlwidth=900&format=json&origin=*' +
+				'&titles=' + encodeURIComponent(titles);
+
+			const res = await fetch(apiUrl, { headers: { 'User-Agent': 'OekakiJotatsuClub/1.0' } });
+			const data = await res.json();
+			const pages: Record<string, { title?: string; imageinfo?: Array<{ url: string; thumburl: string }> }> =
+				data.query?.pages ?? {};
+
+			for (const page of Object.values(pages)) {
+				const thumburl = page.imageinfo?.[0]?.thumburl;
+				const actualUrl = page.imageinfo?.[0]?.url;
+				if (!thumburl && !actualUrl) continue;
+
+				// page.title は "File:Egon Schiele - ..." 形式
+				const pageFilename = (page.title ?? '').replace(/^File:/, '');
+				const entry = batch.find((e) => e.filename === pageFilename);
+				if (!entry) continue;
+				if (seen.has(entry.itemId)) continue;
+				seen.add(entry.itemId);
+
+				artworks.push({
+					id: `wikidata-${entry.itemId}`,
+					provider: 'wikidata',
+					providerObjectId: entry.itemId,
+					title: entry.title,
+					artist: 'Egon Schiele',
+					year: entry.year,
+					imageUrl: thumburl ?? actualUrl!,
+					sourceUrl: `https://www.wikidata.org/wiki/${entry.itemId}`,
+					license: 'CC0',
+					tags: ['public-domain'],
+				});
+			}
+		} catch (e) {
+			console.warn(`  Wikimedia batch failed (offset ${i}):`, e);
+		}
+
+		await sleep(300);
+	}
+
+	return artworks;
+}
+
 // ─── Main ─────────────────────────────────────────────────────────────────────
 
 async function main() {
 	const all: Artwork[] = [];
 	const seen = new Set<string>();
 
-	for (const { query, metQuery } of TARGET_ARTISTS) {
-		console.log(`\n[Met] ${query}`);
-		const metResults = await fetchMet(query, metQuery);
-		console.log(`  → ${metResults.length} artworks`);
-		for (const a of metResults) {
+	function addAll(artworks: Artwork[]) {
+		for (const a of artworks) {
 			if (!seen.has(a.id)) {
 				seen.add(a.id);
 				all.push(a);
 			}
 		}
+	}
+
+	// ── Egon Schiele: Wikidata + ArtIC で 50 件以上確保 ──
+	console.log('\n[Wikidata] Egon Schiele');
+	const schieleWikidata = await fetchWikidataSchiele(60);
+	console.log(`  → ${schieleWikidata.length} artworks`);
+	addAll(schieleWikidata);
+	await sleep(500);
+
+	console.log('[ArtIC] Egon Schiele');
+	const schieleArtic = await fetchArtic('Egon Schiele');
+	console.log(`  → ${schieleArtic.length} artworks`);
+	addAll(schieleArtic);
+	await sleep(300);
+
+	// ── 残りの4名: Met + ArtIC ──
+	const others = TARGET_ARTISTS.filter((a) => a.query !== 'Egon Schiele');
+	for (const { query, metQuery } of others) {
+		console.log(`\n[Met] ${query}`);
+		const metResults = await fetchMet(query, metQuery);
+		console.log(`  → ${metResults.length} artworks`);
+		addAll(metResults);
 		await sleep(500);
 
 		console.log(`[ArtIC] ${query}`);
 		const articResults = await fetchArtic(query);
 		console.log(`  → ${articResults.length} artworks`);
-		for (const a of articResults) {
-			if (!seen.has(a.id)) {
-				seen.add(a.id);
-				all.push(a);
-			}
-		}
+		addAll(articResults);
 		await sleep(300);
 	}
 
 	console.log(`\n合計: ${all.length} 作品をキャッシュに書き込みます`);
+	// アーティスト別内訳
+	const byArtist: Record<string, number> = {};
+	for (const a of all) {
+		byArtist[a.artist] = (byArtist[a.artist] ?? 0) + 1;
+	}
+	for (const [artist, count] of Object.entries(byArtist).sort((a, b) => b[1] - a[1])) {
+		console.log(`  ${artist}: ${count}`);
+	}
+
 	mkdirSync(dirname(OUT_PATH), { recursive: true });
 	writeFileSync(OUT_PATH, JSON.stringify(all, null, 2), 'utf-8');
-	console.log(`完了: ${OUT_PATH}`);
+	console.log(`\n完了: ${OUT_PATH}`);
 }
 
 main().catch((e) => {
